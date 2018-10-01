@@ -1,0 +1,71 @@
+{
+  "name": "sgdeafront",
+  "version": "1.0.0",
+  "description": "app frontend of the proyect sgdea general.",
+  "main": "index.js",
+  "scripts": {
+    "coverage": "npm test -- --coverage",
+    "build": "react-app-rewired build",
+    "buildwk": "./node_modules/.bin/webpack --config webpack.config.js --mode production",
+    "test": "react-app-rewired test --env=jsdom",
+    "precommit": "lint-staged",
+    "prepush": "CI=true npm test",
+    "start": "react-app-rewired start",
+    "styleguide": "styleguidist server",
+    "styleguide:build": "styleguidist build"
+  },
+  "keywords": [
+    "frontsgdea",
+    "react",
+    "antd",
+    "g6",
+    "redux"
+  ],
+  "author": "jcamilo97@github.com",
+  "license": "ISC",
+  "dependencies": {
+    "@antv/g6": "^1.2.8",
+    "antd": "^3.6.5",
+    "classnames": "^2.2.6",
+    "enquire-js": "^0.2.1",
+    "gh-pages": "^1.2.0",
+    "isomorphic-fetch": "^2.2.1",
+    "lodash.clonedeep": "^4.5.0",
+    "npm": "^6.4.0",
+    "prop-types": "^15.6.2",
+    "rc-drawer": "^1.5.7",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-loadable": "^5.4.0",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "react-side-effect": "^1.1.5",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.8.0",
+    "json-server": "^0.14.0",
+    "react-app-rewire-less-modules": "^1.3.0",
+    "react-app-rewired": "^1.5.2",
+    "react-scripts": "2.0.0-next.9754a231",
+    "webpack-bundle-analyzer": "^2.13.1",
+    "babel-eslint": "^8.2.2",
+    "eslint": "^4.18.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-prefer-object-spread": "^1.1.0",
+    "eslint-plugin-react": "^7.7.0"
+  },
+  "browserslist": {
+    "development": [
+      "last 1 chrome versions",
+      "last 1 firefox versions"
+    ],
+    "production": [
+      "last 1 chrome versions",
+      "last 1 firefox versions"
+    ]
+  }
+}

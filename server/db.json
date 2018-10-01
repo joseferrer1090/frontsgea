@@ -1,0 +1,67 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": "2",
+      "title": "prueba json-server",
+      "autor": "json"
+    },
+    {
+      "id": "3",
+      "title": "prueba 2",
+      "autor": "react"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "archivo":[
+    {
+      "title": "logistica",
+      "key": "logistica",
+      "children": [{
+        "title": "pedidos",
+        "key": "pedidos",
+        "children": [{
+          "title": "cancelados",
+          "key": "cancelados",
+          "children": [{
+            "title": "arturo.pdf",
+            "key": "arturo"
+          }]
+        },
+        {
+          "title": "aprobados",
+          "key": "aprobados"
+        },
+        {
+          "title": "devueltos",
+          "key": "devueltos"
+        }]
+      },
+      {
+        "title":"compras",
+        "key":"compras"
+      }]
+    },
+    {
+      "title": "Teams",
+      "key": "teams",
+      "children": [{
+        "title": "calidosos",
+        "key": "calidosos"
+      }]
+    }
+  ]
+}

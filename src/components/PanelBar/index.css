@@ -1,0 +1,15 @@
+.panelBar {
+    position: relative;
+    z-index: 1;
+    bottom: 0;
+    box-sizing: border-box;
+    border-radius: 12px 12px 12px 12px;
+    -moz-border-radius: 12px 12px 12px 12px;
+    -webkit-border-radius: 12px 12px 12px 12px;
+    padding: 5px 10px 0 10px;
+    width: 200px;
+    height: auto;
+    background: #fff;
+    box-shadow: 0px 0px 5px #aaa;
+  }
+  
